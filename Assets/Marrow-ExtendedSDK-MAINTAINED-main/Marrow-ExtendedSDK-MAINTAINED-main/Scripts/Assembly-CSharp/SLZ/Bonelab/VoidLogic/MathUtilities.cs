@@ -7,13 +7,13 @@ namespace SLZ.Bonelab.VoidLogic
 		[MethodImpl(256)]
 		public static bool IsApproximatelyEqualToOrGreaterThan(this float num1, float num2)
 		{
-			return false;
+			return num1 >= num2;
 		}
 
 		[MethodImpl(256)]
 		public static bool IsApproximatelyEqualToOrLessThan(this float num1, float num2)
 		{
-			return false;
+			return num1 <= num2;
 		}
 	}
 }

@@ -15,6 +15,20 @@
       "dependencies": {},
       "hash": "3b5e9bbe90ffd92c44af9b63009809f28593fb33"
     },
+    "com.holadivinus.marrowbuildhook": {
+      "version": "https://github.com/holadivinus/MarrowBuildHook.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "03de4f6d880f601a0661a9c207a20993a8e701d5"
+    },
+    "com.holadivinus.noodledevents": {
+      "version": "https://github.com/holadivinus/Noodled-Events.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "2f5e114151738f9fea8291fd36dc1b8c0312beef"
+    },
     "com.stresslevelzero.marrow.backlot": {
       "version": "https://github.com/EvroDeveloper/Marrow-Backlot-Standalone.git",
       "depth": 0,
