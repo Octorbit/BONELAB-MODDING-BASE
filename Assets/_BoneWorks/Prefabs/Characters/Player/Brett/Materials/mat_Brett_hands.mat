@@ -1,0 +1,210 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: mat_Brett_hands
+  m_Shader: {fileID: 4800000, guid: d804c66cf2d271d40988fc992e0e8683, type: 3}
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 1
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap:
+    OriginalShader: Standard
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BaseMap:
+        m_Texture: {fileID: 2800000, guid: 35b5d1c2253289640996b69553a78705, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap:
+        m_Texture: {fileID: 2800000, guid: 7f49764b20084e6468b980bd856a4816, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMap:
+        m_Texture: {fileID: 2800000, guid: 633cfe6a6d4ee694c98830c630980cad, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _HitRamp:
+        m_Texture: {fileID: 2800000, guid: 84ca5de29beed9942bc94c8e9bc2be13, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 459f9b71294e7584b9885dff9b13cf96, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 2800000, guid: 82d6021ed3914a941a47d080d10716c9, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SSSAOMap:
+        m_Texture: {fileID: 2800000, guid: ccbc0bfb4b605e744b649074f8fd2cc1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SkinLUT:
+        m_Texture: {fileID: 2800000, guid: 87cbf4ae52daa4b48a1881dd73a52448, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - g_tBRDFMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - BRDFMAP: 0
+    - EnableBRDFMAP: 1
+    - Fluorescence: 0
+    - ReceiveShadows: 1
+    - S: 0
+    - _AlbedoMultiply: 0
+    - _AlphaClip: 0
+    - _AlphaCutoff: 0.5
+    - _AmbientReflectionStrength: 1
+    - _AnisotropicRatio: 0.5
+    - _AnisotropicRotation: 0.5
+    - _ApplyNormal: 1
+    - _ApplyNormalDepthNormal: 1
+    - _ApplyNormalDiffuse: 1
+    - _Backscatter: 1
+    - _BakedMutiplier: 1
+    - _Bias: 1.88
+    - _Blend: 0
+    - _BlendDst: 0
+    - _BlendSrc: 1
+    - _BloodyMetallic: 0
+    - _BloodyNormalScale: 1
+    - _BloodySmoothness: 0
+    - _BloodyTexScale: 0.16
+    - _BumpScale: 2
+    - _ColorMultiplier: 0
+    - _Cull: 2
+    - _Culling: 0
+    - _Curvature: 0.5
+    - _Cutoff: 0.5
+    - _DecalTransmission: 1
+    - _DetailAlbedoScale: 0.08
+    - _DetailMode: 0
+    - _DetailNormalMapScale: 0.52
+    - _DetailNormalScale: 0.46
+    - _DetailSmoothnessScale: 0.97
+    - _Details: 0
+    - _Distortion: 0.01
+    - _DstBlend: 0
+    - _Emission: 0
+    - _EmissionFalloff: 0
+    - _EmissiveMode: 0
+    - _EnableBackscatter: 0
+    - _EnableDistanceFade: 0
+    - _EnvironmentReflections: 1
+    - _FlatSH: 0
+    - _FogMultiplier: 1
+    - _GeometricRoughness: 0
+    - _Gibskin: 0
+    - _GlossMapScale: 1
+    - _Glossiness: 0
+    - _GlossyReflections: 1
+    - _HelpX: 0
+    - _MaskByShadowStrength: 1
+    - _Metallic: 0
+    - _Mode: 0
+    - _NormalToOcclusion: 1
+    - _Normals: 0
+    - _NumberOfElipsoids: 0
+    - _NumberOfHits: 0
+    - _OcclusionStrength: 1
+    - _OcclusionStrengthDirectDiffuse: 1
+    - _OcclusionStrengthDirectSpecular: 1
+    - _OcclusionStrengthIndirectDiffuse: 1
+    - _OcclusionStrengthIndirectSpecular: 1
+    - _OffsetFactor: 0
+    - _OffsetUnit: 0
+    - _OffsetUnits: 0
+    - _PackingMode: 3
+    - _Parallax: 0.02
+    - _ParallaxIterations: 1
+    - _ParallaxOffset: 0
+    - _Power: 0.25
+    - _QueueOffset: 0
+    - _ReadMask: 255
+    - _ReceiveDecals: 1
+    - _ReceiveShadows: 1
+    - _Rim: 0
+    - _RimFrequency: 0
+    - _RimMinPower: 1
+    - _RimPerPositionFrequency: 1
+    - _RimPower: 2
+    - _SSROff: 0
+    - _SSRTemporalMul: 1
+    - _SampleCurvature: 0
+    - _ShadowStrength: 0.7
+    - _SkinShadowBias: 1
+    - _SkinShadowSamplingBias: 0.0008
+    - _Smoothness: 0.695
+    - _SmoothnessTextureChannel: 0
+    - _SpecMod: 1
+    - _SpecularHighlights: 1
+    - _SpecularMode: 2
+    - _SrcBlend: 1
+    - _Stencil: 0
+    - _StencilComp: 8
+    - _StencilFail: 0
+    - _StencilOp: 0
+    - _StencilZFail: 0
+    - _Surface: 0
+    - _Test: 0
+    - _TranslucencyPower: 7
+    - _TranslucencyStrength: 1
+    - _UVSec: 0
+    - _VertexColors: 0
+    - _VertexMode: 0
+    - _VertexNormal: 0
+    - _WorkflowMode: 1
+    - _WriteMask: 255
+    - _ZWrite: 1
+    - g_bCastShadows: 1
+    - g_bReceiveShadows: 1
+    - g_bRenderBackfaces: 0
+    - g_bUnlit: 0
+    - g_bWorldAlignedTexture: 0
+    - g_flCubeMapScalar: 1
+    - g_flFresnelExponent: 4.12
+    - g_flFresnelFalloff: 0.56
+    - g_flReflectanceBias: 0
+    - g_flReflectanceMax: 1
+    - g_flReflectanceMin: 0
+    - g_flReflectanceScale: 1
+    m_Colors:
+    - _Absorbance: {r: 0.09999997, g: 0.24999997, b: 0.5, a: 1}
+    - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
+    - _BloodyColor: {r: 0.4339622, g: 0, b: 0, a: 1}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _ColorShift1: {r: 1, g: 1, b: 1, a: 1}
+    - _ColorShift2: {r: 1, g: 1, b: 1, a: 1}
+    - _ColorShift3: {r: 1, g: 1, b: 1, a: 1}
+    - _ColorShift4: {r: 1, g: 1, b: 1, a: 1}
+    - _DistanceFade: {r: 2500, g: 0.001, b: 0, a: 0}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 0}
+    - _FluorescenceColor: {r: 0, g: 0, b: 0, a: 1}
+    - _HitColor: {r: 0.16037738, g: 0.0022694871, b: 0.0022694871, a: 1}
+    - _RimColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
+    - _SpecularColor: {r: 0.14778392, g: 0.18342829, b: 0.254717, a: 1}
+    - _SubsurfaceColor: {r: 1, g: 0.39999998, b: 0.24999997, a: 1}
+    - g_vWorldAlignedNormalTangentU: {r: -1, g: 0, b: 0, a: 0}
+    - g_vWorldAlignedNormalTangentV: {r: 0, g: 0, b: 1, a: 0}
+    - g_vWorldAlignedTextureNormal: {r: 0, g: 1, b: 0, a: 0}
+    - g_vWorldAlignedTexturePosition: {r: 0, g: 0, b: 0, a: 0}
+    - g_vWorldAlignedTextureSize: {r: 1, g: 1, b: 1, a: 0}
+  m_BuildTextureStacks: []

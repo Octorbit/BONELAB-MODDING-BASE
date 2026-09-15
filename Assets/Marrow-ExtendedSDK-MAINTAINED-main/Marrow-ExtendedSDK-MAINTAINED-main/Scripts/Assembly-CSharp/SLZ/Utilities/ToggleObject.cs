@@ -9,7 +9,6 @@ namespace SLZ.Utilities
 
 		public void Toggle()
 		{
-			ObjectToToggle.SetActive(!ObjectToToggle.activeSelf);
 		}
 	}
 }
