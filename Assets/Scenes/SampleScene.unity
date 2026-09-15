@@ -134,8 +134,11 @@ GameObject:
   - component: {fileID: 705507995}
   - component: {fileID: 705507994}
   - component: {fileID: 705507996}
-  m_Layer: 0
-  m_Name: Directional Light
+  - component: {fileID: 705507999}
+  - component: {fileID: 705507998}
+  - component: {fileID: 705507997}
+  m_Layer: 2
+  m_Name: CrateSpawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -240,6 +243,59 @@ MonoBehaviour:
   m_LightCookieOffset: {x: 0, y: 0}
   useVolumetric: 1
   m_VolumetricDimmer: 1
+--- !u!114 &705507997
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 705507993}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0489097773009034eb7919bb922e03cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ExplorablePreview: 0
+--- !u!114 &705507998
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 705507993}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5657a7edf0c651439e923c65f7f2a9f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _crateSpawner: {fileID: 705507999}
+  crates: []
+  spawnOnStart: 0
+--- !u!114 &705507999
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 705507993}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 380a92c3490d7f240b2abf1a2a24839a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawnableCrateReference:
+    _barcode:
+      _id: null.empty.barcode
+  policyData: {fileID: 0}
+  crateQuery:
+    _barcode:
+      _id: null.empty.barcode
+    tagFilter: 
+    titleFilter: 
+  useQuery: 0
+  manualMode: 0
+  onSpawnEvent:
+    _PersistentCalls: []
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
