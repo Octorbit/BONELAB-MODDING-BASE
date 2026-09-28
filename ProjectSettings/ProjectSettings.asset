@@ -791,8 +791,8 @@ PlayerSettings:
   XboxOneOverrideIdentityPublisher: 
   vrEditorSettings: {}
   cloudServicesEnabled:
-    Collab: 1
-    UNet: 1
+    Collab: 0
+    UNet: 0
   luminIcon:
     m_Name: 
     m_ModelFolderPath: 
@@ -807,11 +807,11 @@ PlayerSettings:
   apiCompatibilityLevel: 6
   activeInputHandler: 0
   windowsGamepadBackendHint: 0
-  cloudProjectId: c846c191-5f7e-4994-886b-f9c4552d453e
+  cloudProjectId: 
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
   projectName: BONELAB MODDING BASE
-  organizationId: pl130pl
+  organizationId: 0
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
   playerDataPath: 
