@@ -10,22 +10,30 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1bffa63f5a19c394b9f0ab757607a9ea, type: 3}
-  m_Name: _Test.pallet
+  m_Name: _Template Create.pallet
   m_EditorClassIdentifier: 
   _barcode:
-    _id: Test.Test
-  _title: Test
+    _id: 1OfUs.TemplateCreate
+  _title: Template Create
   _description: 
   _unlockable: 0
   _redacted: 0
-  _author: Test
-  _version: 0.0.0
+  _author: 1OfUs
+  _version: 0.0.1
   _sdkVersion: 1.2.0
   _internal: 0
-  _crates: []
+  _crates:
+  - {fileID: 11400000, guid: b076dc1799013454ab7ec7b9c5debad6, type: 2}
+  - {fileID: 11400000, guid: df37887ab40a9e54ba22d19e9edccf84, type: 2}
+  - {fileID: 11400000, guid: 30ffc6e3a08c95b45a69b26de11d232b, type: 2}
+  - {fileID: 11400000, guid: eb92725b37c7d104e900b816807ab441, type: 2}
   _dataCards: []
   _tags: []
   _changeLogs: []
-  _crateTitles: []
+  _crateTitles:
+  - Spawnable  Spawnable Object Cube
+  - Avatar  Template Avatar
+  - Spawnable  NPC Base
+  - Level  SampleScene
   _datacardTitles: []
   _palletDependencies: []

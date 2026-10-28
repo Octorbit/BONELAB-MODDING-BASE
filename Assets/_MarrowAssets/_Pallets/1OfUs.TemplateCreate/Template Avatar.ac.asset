@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d26284165bbf1b94dbe4934acd6c0f71, type: 3}
+  m_Name: Template Avatar.ac
+  m_EditorClassIdentifier: 
+  _barcode:
+    _id: 1OfUs.TemplateCreate.Avatar.TemplateAvatar
+  _title: Template Avatar
+  _description: 
+  _unlockable: 0
+  _redacted: 0
+  _tags: []
+  _boneTags:
+    _tags: []
+  _mainAsset:
+    _assetGUID: 225c326a18c176a46849461c657c1888
+    _editorAssetChanged: 0
+  _previewMesh:
+    _assetGUID: 
+    _editorAssetChanged: 0
+  _customQuality: 0
+  _previewMeshQuality: 0.5
+  _maxLODLevel: 0
+  _colliderBounds:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0, y: 0, z: 0}
